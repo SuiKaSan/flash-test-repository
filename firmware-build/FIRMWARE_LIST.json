@@ -118,6 +118,15 @@
       "baudRate": "115200"
     },
     {
+      "name": "ihost_mg21_multipan_stable_4.4.5_115200.gbl",
+      "dongleType": "iHost",
+      "chipModel": "mg21",
+      "firmwareType": "MultiPAN",
+      "firmwareDesc": "stable",
+      "version": "4.4.5",
+      "baudRate": "115200"
+    },
+    {
       "name": "ihost_mg21_zigbee_beta_8.0.2_115200.gbl",
       "dongleType": "iHost",
       "chipModel": "mg21",
