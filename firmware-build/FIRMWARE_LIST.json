@@ -91,6 +91,24 @@
             "baudRate": "115200"
         },
         {
+            "name": "donglelmg21_mg21_zigbee_factory_7.4.5_115200.gbl",
+            "dongleType": "Dongle-LMG21",
+            "chipModel": "mg21",
+            "firmwareType": "Zigbee",
+            "firmwareDesc": "factory",
+            "version": "7.4.5",
+            "baudRate": "115200"
+        },
+        {
+            "name": "donglepmg24_mg24_zigbee_factory_7.4.5_115200.gbl",
+            "dongleType": "Dongle-PMG24",
+            "chipModel": "mg24",
+            "firmwareType": "Zigbee",
+            "firmwareDesc": "factory",
+            "version": "7.4.5",
+            "baudRate": "115200"
+        },
+        {
             "name": "donglep_cc2652p_zigbeerouter_stable_20221102_115200.hex",
             "dongleType": "ZBDongle-P",
             "chipModel": "cc2652p",
