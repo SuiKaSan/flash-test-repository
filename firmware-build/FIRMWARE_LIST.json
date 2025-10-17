@@ -162,15 +162,15 @@
             "version": "20221102",
             "baudRate": "115200"
         },
-        {
-            "name": "donglep_cc2652p_zigbeerouter_stable_20250403_115200.hex",
-            "dongleType": "ZBDongle-P",
-            "chipModel": "cc2652p",
-            "firmwareType": "Zigbee Router",
-            "firmwareDesc": "stable",
-            "version": "20250403",
-            "baudRate": "115200"
-        },
+        // {
+        //     "name": "donglep_cc2652p_zigbeerouter_stable_20250403_115200.hex",
+        //     "dongleType": "ZBDongle-P",
+        //     "chipModel": "cc2652p",
+        //     "firmwareType": "Zigbee Router",
+        //     "firmwareDesc": "stable",
+        //     "version": "20250403",
+        //     "baudRate": "115200"
+        // },
         {
             "name": "donglep_cc2652p_zigbee_stable_20240710_115200.hex",
             "dongleType": "ZBDongle-P",
@@ -180,15 +180,15 @@
             "version": "20240710",
             "baudRate": "115200"
         },
-        {
-            "name": "donglep_cc2652p_zigbee_stable_20250321_115200.hex",
-            "dongleType": "ZBDongle-P",
-            "chipModel": "cc2652p",
-            "firmwareType": "Zigbee",
-            "firmwareDesc": "stable",
-            "version": "20250321",
-            "baudRate": "115200"
-        },
+        // {
+        //     "name": "donglep_cc2652p_zigbee_stable_20250321_115200.hex",
+        //     "dongleType": "ZBDongle-P",
+        //     "chipModel": "cc2652p",
+        //     "firmwareType": "Zigbee",
+        //     "firmwareDesc": "stable",
+        //     "version": "20250321",
+        //     "baudRate": "115200"
+        // },
         {
             "name": "ihost_mg21_multipan_beta_4.6.0_115200.gbl",
             "dongleType": "iHost",
