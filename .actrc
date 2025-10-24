@@ -1,0 +1,18 @@
+# .actrc —— act 的默认配置文件
+# 放在仓库根目录，与 .github/ 文件夹同级
+# 之后只需执行 `act` 就会自动加载这些参数
+
+# 使用 bind 挂载：让容器内对文件的改动直接反映到本地仓库
+--bind
+
+# 指定 workflow 文件（如果你只有一个，可以写死）
+-W .github/workflows/generate-index.yml
+
+# 指定要执行的 job 名
+-j generate
+
+# 输出更详细的日志
+--verbose
+
+# 指定镜像映射（兼容 ubuntu-latest）
+-P ubuntu-latest=ghcr.io/catthehacker/ubuntu:act-latest

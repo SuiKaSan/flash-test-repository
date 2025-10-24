@@ -1,0 +1,68 @@
+name: Build FIRMWARE_LIST.json on push (master)
+
+on:
+    push:
+        branches: [master]
+        paths:
+            - 'firmware-build/**'
+            - 'scripts/**'
+            # 建议：改成当前文件名，或直接删掉这一行
+            - '.github/workflows/generate-index.yml'
+
+permissions:
+    contents: write
+
+concurrency:
+    group: generate-index-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    generate:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            # 关键：在真实 Runner/act 环境里，系统会设置 RUNNER_TEMP
+            # 我们把需要的路径写入 GITHUB_ENV，供后续步骤直接用。
+            - name: Prepare temp paths (portable for act)
+              shell: bash
+              run: |
+                  echo "NPM_TEMP_PREFIX=${RUNNER_TEMP}/npm" >> "$GITHUB_ENV"
+                  echo "NODE_PATH=${RUNNER_TEMP}/npm/node_modules" >> "$GITHUB_ENV"
+
+            # 可选依赖临时安装到 Runner 的 temp 目录；不会污染仓库
+            - name: Install transient deps to temp (lodash optional)
+              shell: bash
+              run: |
+                  mkdir -p "$NPM_TEMP_PREFIX"
+                  npm install lodash \
+                    --no-save \
+                    --no-package-lock \
+                    --prefix "$NPM_TEMP_PREFIX"
+
+            - name: Run script
+              env:
+                  NODE_PATH: ${{ env.NODE_PATH }} # 让 require() 能找到临时安装的模块
+              run: node scripts/generate-json.js
+
+            - name: Commit & push only the generated file
+              shell: bash
+              run: |
+                  if [ -n "$(git status --porcelain -- firmware-build/FIRMWARE_LIST.json)" ]; then
+                    git config user.name  "github-actions[bot]"
+                    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                    git add firmware-build/FIRMWARE_LIST.json
+                    git commit -m "chore: auto-generate FIRMWARE_LIST.json [skip ci]"
+                    git push
+                  else
+                    echo "No changes in firmware-build/FIRMWARE_LIST.json"
+                  fi
