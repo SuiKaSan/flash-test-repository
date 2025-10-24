@@ -26,7 +26,7 @@ const folderPath = join(__dirname, '..', 'firmware-build'); // __dirname is the 
 // Read directory contents
 readdir(folderPath, (err, files) => {
     if (err) {
-        throw new Error('读取文件夹失败:', err);
+        throw new Error('Failed to read firmware folder:', err);
         return;
     }
 
@@ -43,9 +43,9 @@ readdir(folderPath, (err, files) => {
     // Write the JSON data to disk
     writeFile(join(folderPath, OUTPUT_JSON_NAME), JSON.stringify(jsonData, null, 2), (err) => {
         if (err) {
-            throw new Error('写入 JSON 文件失败:', err);
+            throw new Error('Failed to write JSON file:', err);
         } else {
-            console.log('JSON 文件已生成:', OUTPUT_JSON_NAME);
+            console.log('Generated JSON file:', OUTPUT_JSON_NAME);
         }
     });
 });
@@ -69,7 +69,7 @@ function parseFirmwareList(firmwareNameList) {
                 baudRate,
             };
         } else {
-            console.log('未匹配到固件信息:', name);
+            console.log('Firmware info did not match pattern:', name);
         }
 
         // Return an empty entry when parsing fails
@@ -106,3 +106,4 @@ function mapDongleType(type) {
 
     return mapping[type] || 'unknown';
 }
+
