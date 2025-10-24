@@ -145,15 +145,6 @@
       "baudRate": "115200"
     },
     {
-      "name": "donglep_cc2652p_zigbee_stable_20240321_115200.hex",
-      "dongleType": "ZBDongle-P",
-      "chipModel": "cc2652p",
-      "firmwareType": "Zigbee",
-      "firmwareDesc": "stable",
-      "version": "20240321",
-      "baudRate": "115200"
-    },
-    {
       "name": "donglep_cc2652p_zigbee_stable_20240710_115200.hex",
       "dongleType": "ZBDongle-P",
       "chipModel": "cc2652p",
