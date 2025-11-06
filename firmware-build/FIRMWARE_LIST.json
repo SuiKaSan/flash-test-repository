@@ -52,7 +52,7 @@
       "firmwareType": "Zigbee",
       "firmwareDesc": "stable",
       "version": "7.4.4",
-      "baudRate": "115200" 
+      "baudRate": "115200"
     },
     {
       "name": "donglee_mg21_zigbee_stable_8.0.2_115200.gbl",
