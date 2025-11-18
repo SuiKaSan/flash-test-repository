@@ -190,6 +190,24 @@
       "baudRate": "115200"
     },
     {
+      "name": "donglemzg23_zg23_coordinator_stable_1.0.0_115200_7.23.1.gbl",
+      "dongleType": "Dongle-MZG23",
+      "chipModel": "zg23",
+      "firmwareType": "Coordinator",
+      "firmwareDesc": "stable",
+      "version": "1.0.0",
+      "baudRate": "115200"
+    },
+    {
+      "name": "donglemzg23_zg23_router_stable_1.0.0_115200_7.23.1.gbl",
+      "dongleType": "Dongle-MZG23",
+      "chipModel": "zg23",
+      "firmwareType": "Router",
+      "firmwareDesc": "stable",
+      "version": "1.0.0",
+      "baudRate": "115200"
+    },
+    {
       "name": "donglep_cc2652p_zigbee_stable_20240710_115200.hex",
       "dongleType": "ZBDongle-P",
       "chipModel": "cc2652p",
