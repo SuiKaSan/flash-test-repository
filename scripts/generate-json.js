@@ -84,6 +84,8 @@ function mapFirmwareType(type, chipModel) {
         zigbeerouter: 'Zigbee Router',
         openthread: 'OpenThread',
         multipan: 'MultiPAN',
+        router: 'Router',
+        coordinator: 'Coordinator',
     };
 
     const mappingRes = mapping[type];
@@ -102,6 +104,7 @@ function mapDongleType(type) {
         donglem: 'Dongle-M',
         donglelmg21: 'Dongle-LMG21',
         donglepmg24: 'Dongle-PMG24',
+        donglemzg23: 'Dongle-MZG23',
     };
 
     return mapping[type] || 'unknown';
