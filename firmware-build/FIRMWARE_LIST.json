@@ -190,6 +190,15 @@
       "baudRate": "115200"
     },
     {
+      "name": "donglemzg23_esp32_stable_1.0.0_115200.bin",
+      "dongleType": "Dongle-MZG23",
+      "chipModel": "esp32",
+      "firmwareType": "Official",
+      "firmwareDesc": "stable",
+      "version": "1.0.0",
+      "baudRate": "115200"
+    },
+    {
       "name": "donglemzg23_zg23_coordinator_stable_1.0.0_115200_7.23.1.gbl",
       "dongleType": "Dongle-MZG23",
       "chipModel": "zg23",
