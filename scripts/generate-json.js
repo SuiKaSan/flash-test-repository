@@ -85,7 +85,7 @@ function mapFirmwareType(type, chipModel) {
         openthread: 'OpenThread',
         multipan: 'MultiPAN',
         router: 'Router',
-        coordinator: 'Coordinator',
+        controller: 'Controller',
     };
 
     const mappingRes = mapping[type];
