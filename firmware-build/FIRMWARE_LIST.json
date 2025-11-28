@@ -202,7 +202,7 @@
       "name": "donglemzg23_zg23_controller_stable_1.0.0_115200_7.23.1.gbl",
       "dongleType": "Dongle-MZG23",
       "chipModel": "zg23",
-      "firmwareType": "unknown",
+      "firmwareType": "Controller",
       "firmwareDesc": "stable",
       "version": "1.0.0",
       "baudRate": "115200"
