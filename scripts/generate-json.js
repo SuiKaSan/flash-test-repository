@@ -105,6 +105,7 @@ function mapDongleType(type) {
         donglelmg21: 'Dongle-LMG21',
         donglepmg24: 'Dongle-PMG24',
         donglemzg23: 'Dongle-MZG23',
+        donglepzg23: 'Dongle-PZG23',
     };
 
     return mapping[type] || 'unknown';
