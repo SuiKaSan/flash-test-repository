@@ -57,7 +57,7 @@ function parseFirmwareList(firmwareNameList) {
         const match = name.match(/^([a-zA-Z0-9]+)_([a-zA-Z0-9]+)?(?:_([a-zA-Z0-9]+))?_([a-zA-Z0-9]+)_([0-9.]+)_([0-9]+)(?:_([0-9.]+))?\.(bin|gbl|hex)$/);
 
         if (match) {
-            const [, dongleType, chipModel, firmwareType, firmwareDesc, version, baudRate] = match;
+            const [, dongleType, chipModel, firmwareType, firmwareDesc, version, baudRate, sdkVersion] = match;
 
             return {
                 name,
@@ -67,6 +67,7 @@ function parseFirmwareList(firmwareNameList) {
                 firmwareDesc,
                 version,
                 baudRate,
+                sdkVersion: sdkVersion || '',
             };
         } else {
             console.log('Firmware info did not match pattern:', name);
