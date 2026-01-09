@@ -181,6 +181,16 @@
       "sdkVersion": ""
     },
     {
+      "name": "donglem_esp32_stable_1.0.5_115200.bin",
+      "dongleType": "Dongle-M",
+      "chipModel": "esp32",
+      "firmwareType": "Official",
+      "firmwareDesc": "stable",
+      "version": "1.0.5",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
       "name": "donglem_mg24_multipan_stable_1.0.3_115200_4.6.0.gbl",
       "dongleType": "Dongle-M",
       "chipModel": "mg24",
