@@ -221,11 +221,11 @@
       "sdkVersion": ""
     },
     {
-      "name": "donglemzg23_esp32_stable_1.0.0_115200.bin",
+      "name": "donglemzg23_esp32_factory_1.0.0_115200.bin",
       "dongleType": "Dongle-MZG23",
       "chipModel": "esp32",
       "firmwareType": "Official",
-      "firmwareDesc": "stable",
+      "firmwareDesc": "factory",
       "version": "1.0.0",
       "baudRate": "115200",
       "sdkVersion": ""
