@@ -351,6 +351,16 @@
       "sdkVersion": ""
     },
     {
+      "name": "donglepp10_cc2674p10_zigbee_stable_20240413_115200.hex",
+      "dongleType": "Dongle-PP10",
+      "chipModel": "cc2674p10",
+      "firmwareType": "Zigbee",
+      "firmwareDesc": "stable",
+      "version": "20240413",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
       "name": "donglepzg23_zg23_controller_stable_7.23.1_115200.gbl",
       "dongleType": "Dongle-PZG23",
       "chipModel": "zg23",
