@@ -81,7 +81,7 @@ function parseFirmwareList(firmwareNameList) {
 // Map firmware type to a display name
 function mapFirmwareType(type, chipModel) {
     const mapping = {
-        zigbee: 'Zigbee',
+        zigbee: 'Zigbee Coordinator',
         zigbeerouter: 'Zigbee Router',
         openthread: 'OpenThread',
         multipan: 'MultiPAN',
