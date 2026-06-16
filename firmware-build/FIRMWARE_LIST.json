@@ -371,6 +371,16 @@
       "sdkVersion": ""
     },
     {
+      "name": "donglepp10_cc2674p10_openthread_stable_20250201_921600.hex",
+      "dongleType": "Dongle-PP10",
+      "chipModel": "cc2674p10",
+      "firmwareType": "OpenThread",
+      "firmwareDesc": "stable",
+      "version": "20250201",
+      "baudRate": "921600",
+      "sdkVersion": ""
+    },
+    {
       "name": "donglepp10_cc2674p10_zigbee_stable_20250321_115200.hex",
       "dongleType": "Dongle-PP10",
       "chipModel": "cc2674p10",
@@ -378,6 +388,26 @@
       "firmwareDesc": "stable",
       "version": "20250321",
       "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglepp10_cc2674p10_zigbee_stable_20250321_460800.hex",
+      "dongleType": "Dongle-PP10",
+      "chipModel": "cc2674p10",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "20250321",
+      "baudRate": "460800",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglepp10_cc2674p10_zigbee_stable_20250321_921600.hex",
+      "dongleType": "Dongle-PP10",
+      "chipModel": "cc2674p10",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "20250321",
+      "baudRate": "921600",
       "sdkVersion": ""
     },
     {
