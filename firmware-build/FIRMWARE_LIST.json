@@ -31,82 +31,12 @@
       "sdkVersion": ""
     },
     {
-      "name": "donglee_mg21_openthread_stable_2.4.4_460800.gbl",
+      "name": "donglee_mg21_openthread_stable_2.4.4_115200.gbl",
       "dongleType": "ZBDongle-E",
       "chipModel": "mg21",
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "2.4.4",
-      "baudRate": "460800",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglee_mg21_openthread_stable_3.0.2_460800.gbl",
-      "dongleType": "ZBDongle-E",
-      "chipModel": "mg21",
-      "firmwareType": "OpenThread",
-      "firmwareDesc": "stable",
-      "version": "3.0.2",
-      "baudRate": "460800",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglee_mg21_openthread_stable_3.0.2_921600.gbl",
-      "dongleType": "ZBDongle-E",
-      "chipModel": "mg21",
-      "firmwareType": "OpenThread",
-      "firmwareDesc": "stable",
-      "version": "3.0.2",
-      "baudRate": "921600",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglee_mg21_zigbee_stable_6.10.3_115200.gbl",
-      "dongleType": "ZBDongle-E",
-      "chipModel": "mg21",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "6.10.3",
-      "baudRate": "115200",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglee_mg21_zigbee_stable_7.4.1_115200.gbl",
-      "dongleType": "ZBDongle-E",
-      "chipModel": "mg21",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "7.4.1",
-      "baudRate": "115200",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglee_mg21_zigbee_stable_7.4.3_115200.gbl",
-      "dongleType": "ZBDongle-E",
-      "chipModel": "mg21",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "7.4.3",
-      "baudRate": "115200",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglee_mg21_zigbee_stable_7.4.4_115200.gbl",
-      "dongleType": "ZBDongle-E",
-      "chipModel": "mg21",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "7.4.4",
-      "baudRate": "115200",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglee_mg21_zigbee_stable_8.0.2_115200.gbl",
-      "dongleType": "ZBDongle-E",
-      "chipModel": "mg21",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "8.0.2",
       "baudRate": "115200",
       "sdkVersion": ""
     },
@@ -141,32 +71,52 @@
       "sdkVersion": ""
     },
     {
-      "name": "donglee_mg21_zigbeerouter_stable_6.10.3_115200.gbl",
+      "name": "donglee_mg21_zigbee_stable_9.1.1_115200.gbl",
       "dongleType": "ZBDongle-E",
       "chipModel": "mg21",
-      "firmwareType": "Zigbee Router",
+      "firmwareType": "Zigbee Coordinator",
       "firmwareDesc": "stable",
-      "version": "6.10.3",
+      "version": "9.1.1",
       "baudRate": "115200",
       "sdkVersion": ""
     },
     {
-      "name": "donglee_mg21_zigbeerouter_stable_7.4.3_115200.gbl",
+      "name": "donglee_mg21_zigbee_stable_9.1.1_460800.gbl",
+      "dongleType": "ZBDongle-E",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
+      "baudRate": "460800",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglee_mg21_zigbee_stable_9.1.1_921600.gbl",
+      "dongleType": "ZBDongle-E",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
+      "baudRate": "921600",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglee_mg21_zigbeerouter_stable_9.0.2_115200.gbl",
       "dongleType": "ZBDongle-E",
       "chipModel": "mg21",
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
-      "version": "7.4.3",
+      "version": "9.0.2",
       "baudRate": "115200",
       "sdkVersion": ""
     },
     {
-      "name": "donglee_mg21_zigbeerouter_stable_8.0.2_115200.gbl",
+      "name": "donglee_mg21_zigbeerouter_stable_9.1.1_115200.gbl",
       "dongleType": "ZBDongle-E",
       "chipModel": "mg21",
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
-      "version": "8.0.2",
+      "version": "9.1.1",
       "baudRate": "115200",
       "sdkVersion": ""
     },
@@ -201,62 +151,12 @@
       "sdkVersion": ""
     },
     {
-      "name": "donglelmg21_mg21_openthread_stable_2.4.4_460800.gbl",
+      "name": "donglelmg21_mg21_openthread_stable_2.4.4_115200.gbl",
       "dongleType": "Dongle-LMG21",
       "chipModel": "mg21",
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "2.4.4",
-      "baudRate": "460800",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglelmg21_mg21_openthread_stable_3.0.2_460800.gbl",
-      "dongleType": "Dongle-LMG21",
-      "chipModel": "mg21",
-      "firmwareType": "OpenThread",
-      "firmwareDesc": "stable",
-      "version": "3.0.2",
-      "baudRate": "460800",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglelmg21_mg21_openthread_stable_3.0.2_921600.gbl",
-      "dongleType": "Dongle-LMG21",
-      "chipModel": "mg21",
-      "firmwareType": "OpenThread",
-      "firmwareDesc": "stable",
-      "version": "3.0.2",
-      "baudRate": "921600",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglelmg21_mg21_zigbee_factory_7.4.5_115200.gbl",
-      "dongleType": "Dongle-LMG21",
-      "chipModel": "mg21",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "factory",
-      "version": "7.4.5",
-      "baudRate": "115200",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglelmg21_mg21_zigbee_stable_7.5.0_115200.gbl",
-      "dongleType": "Dongle-LMG21",
-      "chipModel": "mg21",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "7.5.0",
-      "baudRate": "115200",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglelmg21_mg21_zigbee_stable_8.0.2_115200.gbl",
-      "dongleType": "Dongle-LMG21",
-      "chipModel": "mg21",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "8.0.2",
       "baudRate": "115200",
       "sdkVersion": ""
     },
@@ -291,22 +191,62 @@
       "sdkVersion": ""
     },
     {
-      "name": "donglelmg21_mg21_zigbeerouter_stable_7.5.0_115200.gbl",
+      "name": "donglelmg21_mg21_zigbee_stable_9.1.1_115200.gbl",
       "dongleType": "Dongle-LMG21",
       "chipModel": "mg21",
-      "firmwareType": "Zigbee Router",
+      "firmwareType": "Zigbee Coordinator",
       "firmwareDesc": "stable",
-      "version": "7.5.0",
+      "version": "9.1.1",
       "baudRate": "115200",
       "sdkVersion": ""
     },
     {
-      "name": "donglem_esp32_beta_1.0.4_115200.bin",
+      "name": "donglelmg21_mg21_zigbee_stable_9.1.1_460800.gbl",
+      "dongleType": "Dongle-LMG21",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
+      "baudRate": "460800",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglelmg21_mg21_zigbee_stable_9.1.1_921600.gbl",
+      "dongleType": "Dongle-LMG21",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
+      "baudRate": "921600",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglelmg21_mg21_zigbeerouter_stable_9.0.2_115200.gbl",
+      "dongleType": "Dongle-LMG21",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee Router",
+      "firmwareDesc": "stable",
+      "version": "9.0.2",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglelmg21_mg21_zigbeerouter_stable_9.1.1_115200.gbl",
+      "dongleType": "Dongle-LMG21",
+      "chipModel": "mg21",
+      "firmwareType": "Zigbee Router",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglem_esp32_factory_1.0.10_115200.bin",
       "dongleType": "Dongle-M",
       "chipModel": "esp32",
       "firmwareType": "Official",
-      "firmwareDesc": "beta",
-      "version": "1.0.4",
+      "firmwareDesc": "factory",
+      "version": "1.0.10",
       "baudRate": "115200",
       "sdkVersion": ""
     },
@@ -331,12 +271,12 @@
       "sdkVersion": ""
     },
     {
-      "name": "donglem_esp32_stable_1.0.3_115200.bin",
+      "name": "donglem_esp32_factory_2.0.0_115200.bin",
       "dongleType": "Dongle-M",
       "chipModel": "esp32",
       "firmwareType": "Official",
-      "firmwareDesc": "stable",
-      "version": "1.0.3",
+      "firmwareDesc": "factory",
+      "version": "2.0.0",
       "baudRate": "115200",
       "sdkVersion": ""
     },
@@ -351,21 +291,171 @@
       "sdkVersion": "4.6.0"
     },
     {
-      "name": "donglem_mg24_openthread_stable_1.0.0_115200_4.4.5.gbl",
+      "name": "donglem_mg24_multipan_stable_1.0.3_460800_4.6.0.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "MultiPAN",
+      "firmwareDesc": "stable",
+      "version": "1.0.3",
+      "baudRate": "460800",
+      "sdkVersion": "4.6.0"
+    },
+    {
+      "name": "donglem_mg24_multipan_stable_1.0.3_921600_4.6.0.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "MultiPAN",
+      "firmwareDesc": "stable",
+      "version": "1.0.3",
+      "baudRate": "921600",
+      "sdkVersion": "4.6.0"
+    },
+    {
+      "name": "donglem_mg24_openthread_stable_1.0.0_115200_2.4.4.gbl",
       "dongleType": "Dongle-M",
       "chipModel": "mg24",
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "1.0.0",
       "baudRate": "115200",
-      "sdkVersion": "4.4.5"
+      "sdkVersion": "2.4.4"
     },
     {
-      "name": "donglem_mg24_zigbee_stable_1.0.0_115200.gbl",
+      "name": "donglem_mg24_zigbee_stable_1.0.0_115200_7.4.5.gbl",
       "dongleType": "Dongle-M",
       "chipModel": "mg24",
       "firmwareType": "Zigbee Coordinator",
       "firmwareDesc": "stable",
+      "version": "1.0.0",
+      "baudRate": "115200",
+      "sdkVersion": "7.4.5"
+    },
+    {
+      "name": "donglem_mg24_zigbee_stable_1.0.1_115200_8.2.2.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "1.0.1",
+      "baudRate": "115200",
+      "sdkVersion": "8.2.2"
+    },
+    {
+      "name": "donglem_mg24_zigbee_stable_1.0.1_460800_8.2.2.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "1.0.1",
+      "baudRate": "460800",
+      "sdkVersion": "8.2.2"
+    },
+    {
+      "name": "donglem_mg24_zigbee_stable_1.0.1_921600_8.2.2.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "1.0.1",
+      "baudRate": "921600",
+      "sdkVersion": "8.2.2"
+    },
+    {
+      "name": "donglem_mg24_zigbee_stable_1.0.2_115200_9.1.0.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "1.0.2",
+      "baudRate": "115200",
+      "sdkVersion": "9.1.0"
+    },
+    {
+      "name": "donglem_mg24_zigbee_stable_1.0.2_460800_9.1.0.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "1.0.2",
+      "baudRate": "460800",
+      "sdkVersion": "9.1.0"
+    },
+    {
+      "name": "donglem_mg24_zigbee_stable_1.0.2_921600_9.1.0.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "1.0.2",
+      "baudRate": "921600",
+      "sdkVersion": "9.1.0"
+    },
+    {
+      "name": "donglem_mg24_zigbeerouter_stable_1.0.0_115200_7.5.0.gbl",
+      "dongleType": "Dongle-M",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Router",
+      "firmwareDesc": "stable",
+      "version": "1.0.0",
+      "baudRate": "115200",
+      "sdkVersion": "7.5.0"
+    },
+    {
+      "name": "donglemp10_cc2674p10_openthread_stable_1.4-2.1_460800.hex",
+      "dongleType": "unknown",
+      "chipModel": "cc2674p10",
+      "firmwareType": "OpenThread",
+      "firmwareDesc": "stable",
+      "version": "1.4-2.1",
+      "baudRate": "460800",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglemp10_cc2674p10_zigbee_stable_20250321_115200.hex",
+      "dongleType": "unknown",
+      "chipModel": "cc2674p10",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "20250321",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglemp10_cc2674p10_zigbee_stable_20250321_460800.hex",
+      "dongleType": "unknown",
+      "chipModel": "cc2674p10",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "20250321",
+      "baudRate": "460800",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglemp10_cc2674p10_zigbee_stable_20250321_921600.hex",
+      "dongleType": "unknown",
+      "chipModel": "cc2674p10",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "20250321",
+      "baudRate": "921600",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglemp10_cc2674p10_zigbeerouter_stable_20260511_115200.hex",
+      "dongleType": "unknown",
+      "chipModel": "cc2674p10",
+      "firmwareType": "Zigbee Router",
+      "firmwareDesc": "stable",
+      "version": "20260511",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglemp10_esp32-s3_factory_1.0.0_115200.bin",
+      "dongleType": "unknown",
+      "chipModel": "esp32-s3",
+      "firmwareType": "unknown",
+      "firmwareDesc": "factory",
       "version": "1.0.0",
       "baudRate": "115200",
       "sdkVersion": ""
@@ -377,6 +467,16 @@
       "firmwareType": "Official",
       "firmwareDesc": "factory",
       "version": "1.0.0",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglemzg23_esp32_factory_1.0.10_115200.bin",
+      "dongleType": "Dongle-MZG23",
+      "chipModel": "esp32",
+      "firmwareType": "Official",
+      "firmwareDesc": "factory",
+      "version": "1.0.10",
       "baudRate": "115200",
       "sdkVersion": ""
     },
@@ -401,13 +501,23 @@
       "sdkVersion": "7.23.1"
     },
     {
-      "name": "donglep_cc2652p_zigbee_stable_20240710_115200.hex",
+      "name": "donglep_cc2652p_openthread_stable_1.4-2.1_460800.hex",
       "dongleType": "ZBDongle-P",
       "chipModel": "cc2652p",
-      "firmwareType": "Zigbee Coordinator",
+      "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
-      "version": "20240710",
-      "baudRate": "115200",
+      "version": "1.4-2.1",
+      "baudRate": "460800",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglep_cc2652p_openthread_stable_1.4-2.1_921600.hex",
+      "dongleType": "ZBDongle-P",
+      "chipModel": "cc2652p",
+      "firmwareType": "OpenThread",
+      "firmwareDesc": "stable",
+      "version": "1.4-2.1",
+      "baudRate": "921600",
       "sdkVersion": ""
     },
     {
@@ -438,16 +548,6 @@
       "firmwareDesc": "stable",
       "version": "20250321",
       "baudRate": "921600",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglep_cc2652p_zigbeerouter_stable_20221102_115200.hex",
-      "dongleType": "ZBDongle-P",
-      "chipModel": "cc2652p",
-      "firmwareType": "Zigbee Router",
-      "firmwareDesc": "stable",
-      "version": "20221102",
-      "baudRate": "115200",
       "sdkVersion": ""
     },
     {
@@ -491,62 +591,12 @@
       "sdkVersion": ""
     },
     {
-      "name": "donglepmg24_mg24_openthread_stable_2.4.4_460800.gbl",
+      "name": "donglepmg24_mg24_openthread_stable_2.4.4_115200.gbl",
       "dongleType": "Dongle-PMG24",
       "chipModel": "mg24",
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
       "version": "2.4.4",
-      "baudRate": "460800",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglepmg24_mg24_openthread_stable_3.0.2_460800.gbl",
-      "dongleType": "Dongle-PMG24",
-      "chipModel": "mg24",
-      "firmwareType": "OpenThread",
-      "firmwareDesc": "stable",
-      "version": "3.0.2",
-      "baudRate": "460800",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglepmg24_mg24_openthread_stable_3.0.2_921600.gbl",
-      "dongleType": "Dongle-PMG24",
-      "chipModel": "mg24",
-      "firmwareType": "OpenThread",
-      "firmwareDesc": "stable",
-      "version": "3.0.2",
-      "baudRate": "921600",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglepmg24_mg24_zigbee_factory_7.4.5_115200.gbl",
-      "dongleType": "Dongle-PMG24",
-      "chipModel": "mg24",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "factory",
-      "version": "7.4.5",
-      "baudRate": "115200",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglepmg24_mg24_zigbee_stable_7.5.0_115200.gbl",
-      "dongleType": "Dongle-PMG24",
-      "chipModel": "mg24",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "7.5.0",
-      "baudRate": "115200",
-      "sdkVersion": ""
-    },
-    {
-      "name": "donglepmg24_mg24_zigbee_stable_8.0.2_115200.gbl",
-      "dongleType": "Dongle-PMG24",
-      "chipModel": "mg24",
-      "firmwareType": "Zigbee Coordinator",
-      "firmwareDesc": "stable",
-      "version": "8.0.2",
       "baudRate": "115200",
       "sdkVersion": ""
     },
@@ -581,12 +631,52 @@
       "sdkVersion": ""
     },
     {
-      "name": "donglepmg24_mg24_zigbeerouter_stable_7.5.0_115200.gbl",
+      "name": "donglepmg24_mg24_zigbee_stable_9.1.1_115200.gbl",
+      "dongleType": "Dongle-PMG24",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglepmg24_mg24_zigbee_stable_9.1.1_460800.gbl",
+      "dongleType": "Dongle-PMG24",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
+      "baudRate": "460800",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglepmg24_mg24_zigbee_stable_9.1.1_921600.gbl",
+      "dongleType": "Dongle-PMG24",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Coordinator",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
+      "baudRate": "921600",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglepmg24_mg24_zigbeerouter_stable_9.0.2_115200.gbl",
       "dongleType": "Dongle-PMG24",
       "chipModel": "mg24",
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
-      "version": "7.5.0",
+      "version": "9.0.2",
+      "baudRate": "115200",
+      "sdkVersion": ""
+    },
+    {
+      "name": "donglepmg24_mg24_zigbeerouter_stable_9.1.1_115200.gbl",
+      "dongleType": "Dongle-PMG24",
+      "chipModel": "mg24",
+      "firmwareType": "Zigbee Router",
+      "firmwareDesc": "stable",
+      "version": "9.1.1",
       "baudRate": "115200",
       "sdkVersion": ""
     },
