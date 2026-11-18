@@ -54,7 +54,7 @@ readdir(folderPath, (err, files) => {
 function parseFirmwareList(firmwareNameList) {
     return firmwareNameList.flatMap((name) => {
         // Regex used to parse the filename
-        const match = name.match(/^([a-zA-Z0-9]+)_([a-zA-Z0-9]+)?(?:_([a-zA-Z0-9]+))?_([a-zA-Z0-9]+)_([0-9.]+)_([0-9]+)(?:_([0-9.]+))?\.(bin|gbl|hex)$/);
+        const match = name.match(/^([a-zA-Z0-9]+)_([a-zA-Z0-9-]+)?(?:_([a-zA-Z0-9]+))?_([a-zA-Z0-9]+)_([0-9.-]+)_([0-9]+)(?:_([0-9.]+))?\.(bin|gbl|hex)$/);
 
         if (match) {
             const [, dongleType, chipModel, firmwareType, firmwareDesc, version, baudRate, sdkVersion] = match;
