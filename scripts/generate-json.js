@@ -91,7 +91,7 @@ function mapFirmwareType(type, chipModel) {
 
     const mappingRes = mapping[type];
     if (mappingRes) return mappingRes;
-    if (chipModel === 'esp32') return 'Official';
+    if ([ 'esp32',  'esp32-s3'].includes(chipModel)) return 'Official';
 
     return 'unknown';
 }
@@ -108,6 +108,7 @@ function mapDongleType(type) {
         donglemzg23: 'Dongle-MZG23',
         donglepzg23: 'Dongle-PZG23',
         donglepp10: 'Dongle-PP10',
+        donglemp10: 'Dongle-MP10',
     };
 
     return mapping[type] || 'unknown';
