@@ -402,7 +402,7 @@
     },
     {
       "name": "donglemp10_cc2674p10_openthread_stable_1.4-2.1_460800.hex",
-      "dongleType": "unknown",
+      "dongleType": "Dongle-MP10",
       "chipModel": "cc2674p10",
       "firmwareType": "OpenThread",
       "firmwareDesc": "stable",
@@ -412,7 +412,7 @@
     },
     {
       "name": "donglemp10_cc2674p10_zigbee_stable_20250321_115200.hex",
-      "dongleType": "unknown",
+      "dongleType": "Dongle-MP10",
       "chipModel": "cc2674p10",
       "firmwareType": "Zigbee Coordinator",
       "firmwareDesc": "stable",
@@ -422,7 +422,7 @@
     },
     {
       "name": "donglemp10_cc2674p10_zigbee_stable_20250321_460800.hex",
-      "dongleType": "unknown",
+      "dongleType": "Dongle-MP10",
       "chipModel": "cc2674p10",
       "firmwareType": "Zigbee Coordinator",
       "firmwareDesc": "stable",
@@ -432,7 +432,7 @@
     },
     {
       "name": "donglemp10_cc2674p10_zigbee_stable_20250321_921600.hex",
-      "dongleType": "unknown",
+      "dongleType": "Dongle-MP10",
       "chipModel": "cc2674p10",
       "firmwareType": "Zigbee Coordinator",
       "firmwareDesc": "stable",
@@ -442,7 +442,7 @@
     },
     {
       "name": "donglemp10_cc2674p10_zigbeerouter_stable_20260511_115200.hex",
-      "dongleType": "unknown",
+      "dongleType": "Dongle-MP10",
       "chipModel": "cc2674p10",
       "firmwareType": "Zigbee Router",
       "firmwareDesc": "stable",
@@ -452,9 +452,9 @@
     },
     {
       "name": "donglemp10_esp32-s3_factory_1.0.0_115200.bin",
-      "dongleType": "unknown",
+      "dongleType": "Dongle-MP10",
       "chipModel": "esp32-s3",
-      "firmwareType": "unknown",
+      "firmwareType": "Official",
       "firmwareDesc": "factory",
       "version": "1.0.0",
       "baudRate": "115200",
